@@ -101,3 +101,20 @@ git push -u origin master
 git add
 git add .
 git commit -m "Init"
+git config --global user.name "anton"
+git config --global user.email "Spirin-AM2019@sgugit.ru"
+git init
+git add .
+git commit -m "Init"
+git remote add origin https://github.com/anton/exaple.git
+git push -u origin master
+cd /path/to/repository
+git remote -v
+git push -u origin master
+git config --list
+git push -u origin master
+git status
+git add
+git commit -a
+mkdir -p ~/git/testing ; cd ~/git/testing
+exit
