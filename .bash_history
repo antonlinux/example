@@ -78,3 +78,26 @@ exit
 git --version
 sudo apt update
 sudo apt install git
+.git/config
+sudo nano .git/config
+sudo .git/config
+git push -u origin master
+git remote add origin https://github.com/anton/репозиторий.git
+git init
+git add .
+git commit -m "Init"
+git config --global user.name "anton"
+git config --global user.email "Spirin-AM2019@sgugit.ru"
+git init
+git add
+git add .
+git commit -m "Init"
+git remote add origin https://github.com/anton/репозиторий.git
+git push -u origin master
+sudo git push -u origin master
+git push -u origin master
+push -u origin master
+git push -u origin master
+git add
+git add .
+git commit -m "Init"
