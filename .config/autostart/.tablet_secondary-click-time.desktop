@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=gsettings set org.gnome.desktop.a11y.mouse secondary-click-time "0.6"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=unity-integrated-menus
