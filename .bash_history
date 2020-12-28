@@ -118,3 +118,28 @@ git add
 git commit -a
 mkdir -p ~/git/testing ; cd ~/git/testing
 exit
+git config --global user.name "antonlinux"
+git config --global user.email "Spirin-AM2019@sgugit.ru"
+git init
+git add .
+git commit -m "Init"
+git remote add gitlab https:///github.com/namespace/project.git
+git push -u origin master
+git remote add origin https://github.com/rinvex/laravel-repositories.git
+git push -u origin master
+git remote add gitlab https://server/namespace/project.git
+git push -u gitlab master
+git remote add gitlab https:///github.com/namespace/project.git
+git push -u origin master
+exit
+touch file
+git add .
+git commit -m "Initial Commit" -a
+git remote -v
+git remote add origin https://github.com/antonlinux/testing.git
+git remote -v
+git push origin master
+git status
+exit
+ssh-keygen -t rsa -b 4096 –C Spirin-AM2019@sgugit.ru
+exit
